@@ -5,9 +5,9 @@ import psycopg2
 # lai nebūtu jāglabā parole publiski pieejama
 # Vienkāršam testam var nomainīt šīs vērtības pret konkrētiem lielumiem
 
-ELEPHANT_HOST = os.getenv("balarama.db.elephantsql.com") # "balarama.db.elephantsql.com"
-ELEPHANT_NAME = os.getenv("cxbjdhvw") # "manadb"
-ELEPHANT_PASSWORD = os.getenv("R_fbrMFvdhuMxxkoOgK1mUdmOyvNR1m4") # "managaraparole"
+ELEPHANT_HOST = "balarama.db.elephantsql.com"
+ELEPHANT_NAME = "cxbjdhvw"
+ELEPHANT_PASSWORD = "R_fbrMFvdhuMxxkoOgK1mUdmOyvNR1m4"
 
 
 def test_connection():
